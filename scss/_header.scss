@@ -1,0 +1,33 @@
+/*Header*/
+@mixin anclas {
+    text-decoration: none;
+    color: $color-negro ;
+}
+
+h2 {
+    text-decoration: none;
+}
+
+.logo {
+    max-width: 15rem;
+}
+
+/* Barra del header */
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 1rem;
+    color: $color-negro
+}
+
+a {
+    @include anclas;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.barraDeBusqueda {
+    position: relative;
+    float: left;
+}
