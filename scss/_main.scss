@@ -10,7 +10,7 @@ main {
 }
 
 .imagenP {
-    width: 100%;
+    max-width: 100%;
     background-size: contain;
     height: 35rem;
 }
@@ -42,4 +42,3 @@ h2 {
     margin: 2rem 0rem;
     font-size: 2rem;
 }
-
